@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
+import Restaurant from "./components/basis/Restaurant";
 
 const App = () => {
   return (
-    <div>
-      <>hello World g</>
-      
-    </div>
-  )
-}
+      <>
+        <Restaurant />
+      </>
+  );
+};
 
-export default App
+export default App;
