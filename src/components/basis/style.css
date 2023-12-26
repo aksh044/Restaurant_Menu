@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
@@ -23,6 +23,17 @@ html {
 .subtle {
   color: #aaa;
 }
+.title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 70px;
+  margin: 10px;
+  padding-top: 25px;
+  text-transform: capitalize;
+  text-align: center; /* Add this line to align the title to the center */
+}
+
 
 .main-card--cointainer {
   display: grid;
